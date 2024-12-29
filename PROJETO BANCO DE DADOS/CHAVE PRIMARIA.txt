@@ -1,0 +1,40 @@
+              MODELO RELACIONAL 
+
+      CHAVE PRIMARIA:
+
+      chave  gerada a partir do atributo identificador.
+
+      _____________________
+     |                     | 
+     |    TABELA REGIÃO    |
+     |_____________________|
+     |    ID    |   NOME   | 
+     |    1     |  NORTE   |-------> CHAVE PRIMARIA PK = VALOR DA COLUNA ID
+     |    2     |  CENTRO  |
+     |    3     |  SUL     |
+     |__________|__________|
+
+     O VALOR DA CHAVE PRIMARIA NÃO PODE SER VAZIO 
+     RESUMANDO NÃO PODERA SER NULLA
+
+     importante! CHAVE PRIMARIA TEM QUE SER UNICA
+     
+     CHAVE PRIMARIA PODE SER SIMPLES OU COMPOSTA
+  
+     EXEMPLO:
+     _________________________
+     |RESPONSAVEL |    ID    |          
+     |    101     |     1    |  
+     |    101     |     2    |-----> CHAVE PRIMARIA COMPOSTA
+     |    102     |     1    |
+     |____103_____|_____1____|
+     
+     !IMPORANTE toda tabela no modelo relacional tem 
+      que ter uma chave primaria.
+    
+
+
+
+
+
+ 
