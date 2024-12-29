@@ -1,0 +1,69 @@
+
+  COMANDO PARA CRIAR UM BANCO DE DADOS:
+  
+_________________________________________________________________________________________________________________     
+
+  COMANDO PARA CRIAR UM BANCO DE DADOS  
+   
+  create database cadastro;
+_________________________________________________________________________________________________________________
+
+  COMANDO PARA DESCREVER TABELA
+
+  describe pessoas;
+_________________________________________________________________________________________________________________
+  
+  COMANDO PARA USAR UM BANCO DE DADOS
+  
+  use cadatro;
+_________________________________________________________________________________________________________________
+
+  COMANDO PARA INFORMA QUAL BANCO DE DADOS CRIADO
+   
+  show databases;
+_________________________________________________________________________________________________________________
+
+  COMANDO PARA INFORMA AS TABELAS
+ 
+  show tables;
+_________________________________________________________________________________________________________________
+  
+  COMANDO DE DESCRIÇÃO DA TABELA
+
+  describe pessoas;
+
+_________________________________________________________________________________________________________________
+
+  COMANDO PARA VER QUAL BANCO DE DADOS ESTAR ABERTO
+  
+  status
+_________________________________________________________________________________________________________________
+
+  COMANDO PARA CRIAR UMA TABELA:
+
+  CREAT TABLE pessoas (
+
+  nome varchar(30),
+  idade tinyint(3),
+  sexo varchar(1),
+  peso float,
+  altura float,
+  nacionalidade varchar(20)
+  );
+  
+_________________________________________________________________________________________________________________
+
+  BANCO DE DADOS CONTEM TABELAS E TABELAS CONTEM REGISTROS SÃO COMPOSTO POR CAMPOS
+                                                       
+
+  TIPOS PRIMITIVOS----------------------------------> INTEIRO = TINYINT, SMALLINT, INT, MEDIUMINT, BIGINT
+                                                      REAL = DECIMAL, FLOAT, DOUBLE, REAL
+  NUMERICO = INTEIRO, REAL, LOGICO                    DATA/TEMPO = DATE, DATETIME, TIMESTAMP, TIME, YEAR
+                                                      CARACTERE = CHAR, VARCHAR
+  DATA/TEMPO =                                        TINYTEXT, TEXT, MEDIUMTEXT,LONGTEXT            
+                                                      BINARIO = TINYBLOB, BLOB, MEDIUMBLOB,LONGBLOB
+  LETERAL = CARECTERE, TEXTO, BINARIO, COLEÇÃO        COLEÇÃO = ENUM, SET
+                                                      ESPACIAL = GEOMETRY, POINT, POLYNGON, MULTIPOLYGON 
+  ESPACIAL = 
+
+__________________________________________________________________________________________________________________ 
