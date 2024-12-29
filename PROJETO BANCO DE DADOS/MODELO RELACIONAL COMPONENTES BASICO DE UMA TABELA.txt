@@ -1,0 +1,29 @@
+
+                 MODELO RELACIONAL - COMPONENTES
+                  MODELO RELACIONAL - COMPONENTES
+                
+                 VALORES DOS ATRIBUTOS  =  DOMINIO                                
+              ___________________________________________
+             |                                           |                         REPRESENTAÇÃO
+             |            TABELA DEPARTAMENTO            |                          
+             |___________________________________________|                        + CAMPO & VALOR
+             |        |                  |               |  
+             |   ID   |        NOME      |   ID_REGIAO   |----> ESQUEMA           O VALOR DENTRO DE UMA LINHA DE  
+             |________|__________________|_______________|                        UMA COLUNA SE CHAMA CAMPO.
+             |   10   |    +  VENDAS     |       1       |----> TUPLA          
+             |   20   |      OPERAÇÕES   |       1       |           
+             |   30   |   ADMINISTRATIVO |       2       |----> DOMINIO               
+             |   40   |     FINANCEIRO   |       3       |
+             |________|__________________|_______________|----> ISTANCIA
+                              
+
+            A INSTANCIA É UM CONJUTO DE LINHAS QUE REPRESENTA OS DADOS QUE ESTÃO
+            AMARZENADOS NO BANCO DE DADOS.
+
+
+
+
+
+
+
+
