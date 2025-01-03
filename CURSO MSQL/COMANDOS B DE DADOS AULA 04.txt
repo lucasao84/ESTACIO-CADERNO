@@ -1,0 +1,53 @@
+
+   MELHORANDO ESTRUTURA DE BANCO DE DADOS 
+
+_______________________________________________________________________________________________
+
+
+  Toda Vez que for usado o comando NOT NULL, significa que o campo e obrigatorio. 
+
+_______________________________________________________________________________________________
+
+  
+  Toda Vez que for usado o comando SET ou ENUM separado por virgula EXEMPLO: enum('m','F')
+
+  Quando é usado o comando do exemplo usado acima separado por virgula estou informando qual
+
+  comandos são aceitos, então para sexo é usado M ou F
+
+  
+  !IMPORTANTE: essa estrutura é usada para ser um pouco mais rigida.
+________________________________________________________________________________________________
+
+  Toda Vez que for usado o comando decimal(5,2) EXEMPLO: [1][0][2],[3][5] | numero totatal 
+
+  degitos
+
+________________________________________________________________________________________________
+
+
+  Toda Vez que for usado o comando nacionalidade varchar(20) DEFAULT 'Brasil'  significa que
+
+  na nacionalidade se nimguem anota nada sera por padrão 'Brasil'.
+
+________________________________________________________________________________________________
+
+
+  Toda vez que for usado o comando EXEMPLO: id int NOT NULL AUTO_INCREMENT,
+
+  AUTO_INCREMENT = siginifca a primeira pessoa que cadastra seu id sera 1 e 
+ 
+  a segunda sera 2 e a terceira sera 3 assim sucessivamente. tudo isso.
+
+  >>>>>>>>>>>>>>>>>>>>>>>>| AUTOMATICAMENTE |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  PARA DEFINIR COMO CHAVE PRIMARIA, DEVESSE DIGITA O CAMANDO NO FINAL DA LINHA:
+
+  PRIMARY KEY(id)
+
+________________________________________________________________________________________________
+
+
+
+  
+                                                                                                                                                                                                                                                                                                           
