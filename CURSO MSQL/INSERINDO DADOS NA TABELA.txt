@@ -1,0 +1,48 @@
+_______________________________________________________
+ 
+   Inserindo Ddos na Tabela (INSERT INTO)
+__________________________________________________________________________________________________
+    
+   INSERT INTO pessoas   
+
+   (`nome`, `nascimento`, `sexo`, `peso`, `altura`, `nacionalidade`)
+
+   VALUES
+
+   ('Lucas', '1998-05-09', 'M', '79.6', '1.76', 'Brasil'); 
+
+   OU
+
+   INSERT INTO pessoas VALUES
+   
+   (`nome`, `nascimento`, `sexo`, `peso`, `altura`, `nacionalidade`)
+
+   OU
+
+   INSERT INTO pessoas   
+
+   (`nome`, `nascimento`, `sexo`, `peso`, `altura`, `nacionalidade`)
+
+   VALUES
+
+   ('Lucas', '1998-05-09', 'M', '79.6', '1.76', 'Brasil'),
+   ('EDUARDA', '1994-02-02', 'F', '69.4', '1.62', 'AMERICA')   
+   
+   OU
+
+   INSERT INTO pessoas VALUES
+   
+   ('Lucas', '1998-05-09', 'M', '79.6', '1.76', 'Brasil'),
+   ('EDUARDA', '1994-02-02', 'F', '69.4', '1.62', 'AMERICA')   
+__________________________________________________________________________________________________
+
+   COMANDO PARA VER DADOS GRAVADOS DENTRO DO CAMPO NO BANCO DE DADOS NA TABELA
+
+   select * from pessoas;                   
+__________________________________________________________________________________________________
+
+   
+
+
+
+
