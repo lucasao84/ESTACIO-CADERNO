@@ -1,0 +1,97 @@
+_________________________________________________________________________________________________________
+_________________________________________________________________________________________________________
+
+ COMANDO PARA PARAMETROS SEMELHANTES:
+ 
+ SELECT * FROM CURSOS
+ WHERE NOME LINKE 'EXEMPLO%';
+
+ obs: o operador like significa parecido = semelhante..
+ % signifca NENHUM OU VARIOS CARECTEREA.
+_________________________________________________________________________________________________________
+_________________________________________________________________________________________________________
+
+ SELECT * FROM CURSO
+ WHERE NOME LIKE 'EXEMPLO%P_'
+
+ obs qualquer coisa que termina com sublinhado..
+ 
+
+_________________________________________________________________________________________________________
+_________________________________________________________________________________________________________
+
+ COMANDO PARA DISTINGUI:
+ SELECT DISTINCT CARGA FROM CURSOS:
+ 
+_________________________________________________________________________________________________________
+_________________________________________________________________________________________________________
+
+ FUNÇÃO DE AGREGAÇÃO
+ 
+ SELECT COUNT(NOME) FROM CURSOS;
+_________________________________________________________________________________________________________
+_________________________________________________________________________________________________________
+
+ COMANDO PARA FILTRAGEM:
+
+ select * from pessoas
+ where nascimento >='1980-01-01';
+_________________________________________________________________________________________________________
+_________________________________________________________________________________________________________
+
+ EXERCICIOS:
+
+ CRIE UMA LISTA DE TODOS OS HOMENS QUE TRABALHA COMO PROGRAMADOR:
+
+ select * from pessoas
+ where profissao = 'progamador' and sexo = 'M';
+_________________________________________________________________ 
+
+ UMA LISTA COM DADOS DE TODAS AS MULHERES QUE NASCERAM NO BRASIL E QUE TEM SEU NOME INCIADO 
+ COM A LETRA J  
+
+ select * from pessoas
+ where sexo = 'F'
+ and nacionalidade = 'Brasileira'
+ and nome like 'a%';
+
+_________________________________________________________________
+
+ UMA LISTA COM O NOME E NACIONALIDADE DE TODOS OS HOMENS QUE TEM O SILVA NO NOME, NÃO NASCERAM
+ NO BRASIL E PESAM MENOS DE 100 KG
+
+ select * from pessoas;
+
+ SELECT nome, nacionalidade
+ FROM pessoas
+ WHERE sexo = 'M' 
+ AND nome LIKE '%Lima%' 
+ AND nacionalidade != 'Brasileiro' 
+ AND peso < 100;
+__________________________________________________________________
+
+ QUAL É A MÉDIAS DE PESOS DE PESSOAS CADASTRADOS?
+
+ select avg(peso) as peso from pessoas;
+__________________________________________________________________
+
+ QUAL É O MENOR PESO ENTRE AS PESSOAS MULHERES QUE NASCERAM FORA DO BRASIL E ENTRE 01/JAN/1990 E
+ 31/DEZ/2000:
+ 
+ 
+ select nome, nacionalidade from pessoas
+ where sexo like 'F'
+ and nacionalidade != 'Brasileira'
+ and nascimento between '1990-01-01' and '2025-01-01';
+
+___________________________________________________________________
+
+ QUANTAS PESSOAS MULHERES TEM MAIS DE 1.90 DE ALTURA:
+
+ select count(*) as peso
+ from pessoas 
+ where sexo = 'F'
+ and altura > '1.90';
+ 
+_________________________________________________________________________________________________________
+
